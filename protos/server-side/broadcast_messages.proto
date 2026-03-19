@@ -1,0 +1,7 @@
+syntax = "proto3";
+package chat;
+
+message BroadcastDelivery {
+  string message = 1;
+  string username_origin = 2;
+}

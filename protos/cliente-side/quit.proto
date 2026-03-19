@@ -1,0 +1,7 @@
+syntax = "proto3";
+package chat;
+
+message Quit {
+  bool   quit = 1;
+  string ip   = 2;
+}

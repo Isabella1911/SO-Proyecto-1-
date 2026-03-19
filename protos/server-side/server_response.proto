@@ -1,0 +1,8 @@
+syntax = "proto3";
+package chat;
+
+message ServerResponse {
+  int32 status_code = 1;
+  string message = 2;
+  bool is_successful = 3;
+}

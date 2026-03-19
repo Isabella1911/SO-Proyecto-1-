@@ -1,0 +1,8 @@
+syntax = "proto3";
+package chat;
+
+enum StatusEnum {
+  ACTIVE          = 0;
+  DO_NOT_DISTURB  = 1;
+  INVISIBLE       = 2;
+}

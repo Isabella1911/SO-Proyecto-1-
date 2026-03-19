@@ -1,0 +1,9 @@
+syntax = "proto3";
+package chat;
+import "common.proto";
+
+message ChangeStatus {
+  StatusEnum status   = 1;
+  string     username = 2;
+  string     ip       = 3;
+}

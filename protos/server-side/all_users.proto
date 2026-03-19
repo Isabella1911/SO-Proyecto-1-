@@ -1,0 +1,8 @@
+syntax = "proto3";
+package chat;
+import "common.proto";
+
+message AllUsers {
+    repeated string usernames = 1;
+    repeated StatusEnum status = 2;
+}
